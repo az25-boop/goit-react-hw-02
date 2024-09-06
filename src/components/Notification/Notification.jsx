@@ -1,3 +1,5 @@
+import s from "./Feedback.module.css";
+
 export default function Notification() {
-  return <p>No feedback yet</p>;
+  return <p className={s.notify}>No feedback yet</p>;
 }

@@ -1,9 +1,9 @@
-import css from "./Options.module.css";
+import s from "./Options.module.css";
 
 export default function Options({ onClick, totalFeedback, resetFeedback }) {
   return (
     <>
-      <ul className={css.options}>
+      <ul className={s.options}>
         <li>
           <button onClick={() => onClick("good")} type="button">
             Good
